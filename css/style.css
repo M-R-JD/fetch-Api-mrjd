@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(180, 120, 230) !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding-top:40px;
+    text-align: center !important;
+    gap: 3rem !important;
+}
+.container{
+}
+h3{
+    padding: 10px;
+    background-color: gray;
+    font-family:fantasy;
+}
+span {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px rgb(230, 198, 198);
+    width: 20rem;
+    height: 30rem;
+
+}
+a{
+    font-style: italic;
+}
+.flag {
+    justify-content: center;
+    padding: 10px;
+    border: 0.1cm solid rebeccapurple;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+
+.car {
+    line-height: normal;
+}
